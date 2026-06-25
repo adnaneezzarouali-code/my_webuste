@@ -88,7 +88,7 @@ section{
 <header>
 <img src="5C145A89-16B4-4020-BA39-D79486E50A09.png" 
 style="width:220px;height:220px;border-radius:50%;object-fit:cover;border:5px solid white;">
-<h1>🌟مرحبا بكم في موقعي</h1>
+<h1 class="title">🚀 Adenan 🚀</h1>
 <p>أنا مطور مواقع ومبرمج مبتدئ</p>
 <a href="#about" class="btn">اكتشف المزيد</a>
 </header>
@@ -154,3 +154,17 @@ new Date().toLocaleTimeString();
 </section>
 </body>
 </html>
+.title{
+    font-size:50px;
+    font-weight:bold;
+    animation:move 2s infinite alternate;
+}
+
+@keyframes move{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform:translateY(-10px);
+    }
+}
